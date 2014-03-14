@@ -1,0 +1,59 @@
+{
+    "report_id": "bupa01",
+    "report_format": "SiteCatalystV001",
+    "report_segment": "dw:791461",
+    "report_login": {
+        "justin.kaleel": "bupa",
+        "secret": "a0e965a5259bef81b6c08876e940be83"
+    },
+    "report_request": {
+        "reportDescription": {
+            "reportSuiteID": "reportsuite_id",
+            "date": "",
+            "dateFrom": "[[date]]",
+            "dateTo": "[[date]]",
+            "segment_id": "segment_id",
+            "dateGranularity": "day",
+            "metrics": [
+                {
+                    "id": "visitors"
+                },
+                {
+                    "id": "bounces"
+                },
+                {
+                    "id": "event51"
+                },
+                {
+                    "id": "orders"
+                },
+                {
+                    "id": "event41"
+                },
+                {
+                    "id": "revenue"
+                }
+            ],
+            "elements": [
+                {
+                    "id": "lasttouchchannel",
+                    "top": "10"
+                },
+                {
+                    "id": "entryPage",
+                    "top": "10"
+                }
+            ]
+        }
+    },
+    "report_dimensions": {
+        "channel": "NaturalSearch",
+        "source": "SiteCatalystAPI"
+    },
+    "report_date_range": {
+        "cadence": "daily",
+        "start_date": "20130101",
+        "end_date": "20991231",
+        "offset": "36"
+    }
+}
